@@ -24,6 +24,7 @@ public class EjercicioSeno {
             i++;
             termino--;
         }
+        System.out.println("El valor de la serie es "+String.format("%.2f", serie));
     }
 
     private static long factorial(int n) {
