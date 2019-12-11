@@ -23,8 +23,8 @@ public class EjercicioSeno {
             }
             i++;
             termino--;
+             System.out.println("el valor del termino de la serie"+String.format("%2.f",+serie));
         }
-        System.out.println("El valor de la serie es "+String.format("%.2f", serie));
     }
 
     private static long factorial(int n) {
