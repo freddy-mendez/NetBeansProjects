@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class SumaparesImpares {
+   
+    public static void main(String[] args) {
+        Scanner leer=new Scanner(System.in);
+      int suma_par=0;
+      int suma_impar=0;
+      int contador_par=0;
+      int contador_impar=0;
+      float media_par;
+      float media_impar;
+      
+           for(int i=1 ; i<=200; i++){
+                
+          if (i%2==0) {
+              contador_par++;
+              suma_par=suma_par+i;
+          }
+              else {
+                      contador_impar++;
+                      suma_impar= suma_impar+i;
+                      }
+          }
+      media_par=suma_par/contador_par;
+      media_impar=suma_impar/contador_impar;
+      
+      System.out.println("Suma números pares entre 1 y 200: " +suma_par);
+      System.out.println("Media números pares: "+media_par);
+       System.out.println("Suma números impares entre 1 y 200: " +suma_impar);
+      System.out.println("Media números impares: "+media_impar);
+      }
+    }
