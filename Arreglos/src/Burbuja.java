@@ -5,11 +5,11 @@ public class Burbuja {
 
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
-        int n = 15;
+        int n = 10;
         int[] arreglo = new int[n];
 
         for (int i = 0; i < n; i++) {
-            int numero = (int) ((Math.random() * 20) + 1);
+            int numero = (int) ((Math.random() * 15) + 1);
             arreglo[i] = numero;
         }
         

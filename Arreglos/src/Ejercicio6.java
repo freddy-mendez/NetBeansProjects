@@ -17,12 +17,28 @@ public class Ejercicio6 {
             System.out.println("Digite 5 numeros enteros "+(i+1));
             array2[i]= leer.nextInt();
         }
-        for(int i=0; i<num; i++){
+        imprimir(array1);
+        imprimir(array2);
+        for(int i=0, j=num-1; i<num; i++, j--){
             array3[i] = array1[i]*array2[i];
         }
         for(int i=0; i<num; i++){
            System.out.print(array3[i]+", "); 
         }
         
+    }
+    
+    private static void imprimir(int [] a) {
+        System.out.println("");
+        System.out.print("arreglo = [");
+        for (int i=0; i<a.length; i++) {
+            if (i==0) {
+                System.out.print(a[i]);
+            } else {
+                System.out.print(","+a[i]);
+            }
+            
+        }
+        System.out.println("]");
     }
 }
