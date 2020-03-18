@@ -1,9 +1,6 @@
-
 import java.util.Scanner;
-
 public class EstadoCivil {
-
-    public static void main(String[] args) {
+public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         String nombre="";
         int edad=0;
