@@ -1,9 +1,5 @@
-
 import java.util.Scanner;
-
-
 public class SueldoBase {
-
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         System.out.println("Escriba el valor de las ventas");
@@ -15,5 +11,4 @@ public class SueldoBase {
         float comision = (venta1+venta2+venta3)*0.1F;
         System.out.println("El sueldo del mes es:"+(sueldo+comision));
     }
-    
-}
+   }
