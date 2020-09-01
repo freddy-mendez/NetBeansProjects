@@ -10,7 +10,7 @@ public class Multiplo {
         System.out.println("\t vamos a ver si es divisible por 5");
         System.out.println("Digite un número para comprobarlo");
         n = leer.nextInt();
-        siono = n % 15;
+        siono = n % 5;
         if (siono == 0) {
             System.out.println("Es multiplo de 5");
         } else {
